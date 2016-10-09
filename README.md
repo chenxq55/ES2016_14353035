@@ -26,7 +26,8 @@
       -  cd build/bin/main
       -  ant -f runexample.xml -Dnumber=1[用ant编译样例runexample.xml，编译成后截图如下：![example](http://i.imgur.com/WmCvlFc.png)
       -  样例生成框架图如下：![frame](http://i.imgur.com/7SCbVsT.png)
-###Experimental experience:
+
+###实验感想和实验心得:
 1. SystemC是一种软/硬件协同设计语言，一种系统级的建模语言，主要用于并行化的进程，特别是在SoC系统中。DOL是基于SystemC语言的一种系统框架，主要用于处理并行化系统，应用于多核系统。
 2. make工具主要用于C语言的编译，ant工具主要用于java语言的编译，两者的性能相似，但ant工具应用范围更广，因为java语言是一种基于虚拟机的语言，可以跨平台、跨系统运行。
 3. git是一款分布式版本控制系统，可以敏捷高效地处理任何大小项目，尤其是大型团队的开发项目，通过git可以同步更新团队成员的成果并对其进行整合，还可以进行版本控制，记录成员修改记录。
